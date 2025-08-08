@@ -1,0 +1,25 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans 
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="deptBean" class="com.wipro.springdemo.Department">
+    	<property name="deptCode" value="CS0102"></property>
+    	<property name="departmentName" value="Computer Science"/>
+    </bean>
+    
+    <!--  <bean id="collegeBean" class="com.wipro.springdemo.College">
+        <property name="collegeName" value="Parikrama Institute of Technology"/>
+        <property name="department" ref="deptBean"/>
+    </bean> -->
+    
+    <bean id="collegeBean" class="com.wipro.springdemo.College">
+  		<constructor-arg value="Parikrama" />
+  		<constructor-arg ref="deptBean" />
+  	</bean>
+ 
+
+</beans>

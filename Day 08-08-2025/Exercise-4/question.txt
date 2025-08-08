@@ -1,0 +1,1 @@
+Ex4  :  Stop the consumer then write some message from producer. Now run the consumerwithout --from-beginningi.e. like kafka-console-consumer.bat --topic spring-boot   --bootstrap-server localhost:9092  , now find out if you are able to read the messages written before the consumer was run.

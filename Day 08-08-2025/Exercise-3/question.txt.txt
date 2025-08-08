@@ -1,0 +1,1 @@
+Run Zookeeper , Kafka Server . Create a topic called spring-boot , run consumer and run producer . Then fromthe producer  window  write a message on spring-boot topic saying “spring boot has actuator” and verify from the consumer window whether you are able to read the message.

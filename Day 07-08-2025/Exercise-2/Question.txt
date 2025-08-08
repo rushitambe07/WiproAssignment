@@ -1,0 +1,6 @@
+Ex 2: Create a spring boot project with Spring security, create a controller having an end point called /greet that should return a String called “Hello from Greet”. Try to access the url and you will see a login form using the default password printed on the console and user as “user”   login and access the endpoint. After that you logout using /logout end point.
+ 
+Usingthe following in the application.properties file repeat the same exercise
+ 
+spring.security.user.name=jay
+spring.security.user.password=pass

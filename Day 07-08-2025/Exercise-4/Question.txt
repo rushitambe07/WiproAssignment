@@ -1,0 +1,5 @@
+Ex4:  Create a SpringBoot Microservice For having entity for Car and CarRegistrationDetail .
+ Car->id, make, and an object of CarRegistrationDetailthere will @OneToOne relationship between these two Entities.
+CarRegistrationDetail-> id, RegistrationNumber and Date Of Registration (use different dates) .
+ 
+Now using /car ->write the apis to do all CRUD . For delete you may  use orphanremoval=true

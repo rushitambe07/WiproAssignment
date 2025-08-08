@@ -1,0 +1,6 @@
+Ex 1: Create a spring boot application having only web and devtooldependency.  Then add following lines in your application.propertiesfile:
+logging.file.name=logs/logdemo.log
+logging.file.path=logs/
+logging.level.root=WARN
+ 
+Create a restcontroller  having an end point called /greet inside that method use all logging methods like info,debug,trace,warn,error and chaning the log file level in the application.properties file check which logs are getting printed.

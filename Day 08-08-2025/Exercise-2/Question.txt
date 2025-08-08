@@ -1,0 +1,8 @@
+Ex2 : Create a SpringBoot application called LetsGohaving an end point called  /move , payload is {
+ 
+  “vehId” : 1,
+  “lat”:67.78,
+  “long”:89.56
+}
+ 
+Each time this is hit -> data is g

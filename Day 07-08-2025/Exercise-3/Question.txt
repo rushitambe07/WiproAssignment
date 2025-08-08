@@ -1,0 +1,1 @@
+Ex3: Using InMemoryUserDetailsManagersetup one user. Then using HttpSecuritypermit only /hello to be accessed without authentication and rest all urls to be authenticated, you may add some more end points to test that.
