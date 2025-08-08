@@ -1,0 +1,2 @@
+Ex: Create a spring boot application and implement an point called /weather  using query string 
+/weather?city=Kolkata&day=today -> Weather in Kolkata for today is cloudy.

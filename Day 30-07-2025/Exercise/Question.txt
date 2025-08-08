@@ -1,0 +1,21 @@
+Ex1: You are travelling by Air. For that you need to go through following processes inside a class called AirTravelProcess. 
+checkIn
+collectBoardingPass
+doSecurityCheck
+doBoarding
+
+Using aop you implement an advice called showPhotoId before checkIn
+Another advice showBoardingPass -> before secuirity check and before boarding. Put theses two advices in a  single aspect called AirTravelAspect   
+
+During checkIn process you can encounter an exception called NoSeatAvailableException and handle it through an AfterThrowing advice.
+
+
+void checkIn(Boolean flag) throws NoSeatAvailableException
+
+ try
+checkIn(false) -> true print check in successful if it is false throw NoSeatAvailableException
+collectBoardingPass()
+doSecurityCheck()
+doBoarding()
+}catch(Exception ex
+{}

@@ -1,0 +1,13 @@
+Ex 1: Create Order MS running on  port 9012 , payment MS should run on port 9011.
+
+Payment MS should have orderID and paymentStatus boolan. Now when the Post call for order is made then do the following:
+
+Set order status =“I”
+Make a call to the payment MS passing required data
+If the call is successful (i.e if it returns http status code 200)  then update the order status to be “P” else (exception case also ) update the status to be “C”.
+
+int id; 
+String orderNumber; 
+double orderValue; 
+String orderStatus;
+

@@ -1,0 +1,8 @@
+Ex 1: Create two entities called Employee and Department. Employee will have id(pk ai), empId(String) , empName and dept. Department will have id (pk ai) . Establish Unidirectional OneToOne relation between Employee and Department.
+
+
+Ex2:  Implement Person and Post (social media -> having id, message) implement OneToMany -> One Person multiple post)
+
+
+Ex3: Create two entities Movie and Genre (it will have id and description like Action, Thriller, Adventure) 
+One Movie can have multiple Genre and , there could be multiple movies that will belong to a particular Genre. Using establish ManyToMany   relationship between these two entities.

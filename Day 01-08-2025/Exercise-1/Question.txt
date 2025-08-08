@@ -1,0 +1,13 @@
+1.Create a Spring boot rest based project with Spring data jpa for CRUD oprtaions on  ProductManagement having the following properties:
+Id pk int
+productName : String 
+productMake:String
+productPrice:double
+
+2. Write a derived query findByProductMake(String productMake) -> mention it in repo , use it in service and controller ( through service)
+
+3. Write a derived query  to serach by productName and productMake sort by productName in descending order.
+
+4. Implement Pagination and Sort by productPrice 
+
+5. Implement actuator in your application.

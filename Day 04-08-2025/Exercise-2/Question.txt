@@ -1,0 +1,1 @@
+Ex2: Introduce Discovery Service , using it make a call from order to payment ms.

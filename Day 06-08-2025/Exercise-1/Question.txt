@@ -1,0 +1,1 @@
+Ex 1:  Create API gateway and access the order and payment ms urls through API gateway url.

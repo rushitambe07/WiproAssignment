@@ -1,0 +1,7 @@
+Ex 1: Modify order service ms to use OpenFeign instead of RestTemplate.
+
+Ex2: Implement  /order end point that returns order and associated payment data using feign client.
+
+Ex3: Implement circuit breaker in the order and payment microservices   
+
+Ex4: Setup Prometheus server and enable Prometheus metrics collection from order ms

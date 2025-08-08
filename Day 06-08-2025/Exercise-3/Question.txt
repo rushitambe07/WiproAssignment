@@ -1,0 +1,1 @@
+Ex5 Make necessary changes in API gateway and hit /order from api gateway url and see the traces from zipkin

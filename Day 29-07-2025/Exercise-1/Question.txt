@@ -1,0 +1,1 @@
+Ex1: Create a hibernate application to store data in the database table called PAN – id (int), panholderName(String) , panNumber(String) -> save some record in the db using hibernate.
