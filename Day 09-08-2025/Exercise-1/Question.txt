@@ -1,0 +1,1 @@
+Ex 1:   Kafka - Create a topic called weather data and with publisher send some messages like Rainfall expected, Thunderstom in next 10 hours etc and read the same through consumer.

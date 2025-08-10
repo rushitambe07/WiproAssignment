@@ -1,0 +1,3 @@
+Ex2: Create  two Spring boot projects one is producer and another as consumer. Create a topic called learn-subject. Using producer send some messages like “Spring Boot”,”Angular” etc to the learn-subject topic and consume the same from both consumer sprig boot application as well as console consumer.
+
+Ex3: Update the previous project to include an object of type Subject having subjectCode like “BE” , subjectValue like “Spring Boot” , subjectCode= “FE” subjectValue=“Angular”. Update the producer and consumer projects to be able to send and receive Subject data.

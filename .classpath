@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Day 01-08-2025/Exercise-1/productmgmt/src/main/java"/>
+	<classpathentry kind="src" path="Day 01-08-2025/Exercise-1/productmgmt/src/test/java"/>
+	<classpathentry kind="src" path="Day 02-08-2025/Exercises/relationshipdemo/src/main/java"/>
+	<classpathentry kind="src" path="Day 02-08-2025/Exercises/relationshipdemo/src/test/java"/>
+	<classpathentry kind="src" path="Day 04-08-2025/Exercise-1/paymentms/paymentms/src/main/java"/>
+	<classpathentry kind="src" path="Day 04-08-2025/Exercise-1/paymentms/paymentms/src/test/java"/>
+	<classpathentry kind="src" path="Day 04-08-2025/Exercise-2/servicediscovery/servicediscovery/src/main/java"/>
+	<classpathentry kind="src" path="Day 04-08-2025/Exercise-2/servicediscovery/servicediscovery/src/test/java"/>
+	<classpathentry kind="src" path="Day 05-08-2025/Exercises/orderms/orderms/src/main/java"/>
+	<classpathentry kind="src" path="Day 05-08-2025/Exercises/orderms/orderms/src/test/java"/>
+	<classpathentry kind="src" path="Day 05-08-2025/Exercises/paymentms/paymentms/src/main/java"/>
+	<classpathentry kind="src" path="Day 05-08-2025/Exercises/paymentms/paymentms/src/test/java"/>
+	<classpathentry kind="src" path="Day 06-08-2025/Exercise-1/order/order/src/main/java"/>
+	<classpathentry kind="src" path="Day 06-08-2025/Exercise-1/order/order/src/test/java"/>
+	<classpathentry kind="src" path="Day 06-08-2025/Exercise-1/payments/payments/src/main/java"/>
+	<classpathentry kind="src" path="Day 06-08-2025/Exercise-1/payments/payments/src/test/java"/>
+	<classpathentry kind="src" path="Day 06-08-2025/Exercise-2/configserver/configserver/src/main/java"/>
+	<classpathentry kind="src" path="Day 06-08-2025/Exercise-2/configserver/configserver/src/test/java"/>
+	<classpathentry kind="src" path="Day 06-08-2025/Exercise-3/apigateway/apigateway/src/main/java"/>
+	<classpathentry kind="src" path="Day 06-08-2025/Exercise-3/apigateway/apigateway/src/test/java"/>
+	<classpathentry kind="src" path="Day 07-08-2025/Exercise-1/notification-ms/src/main/java"/>
+	<classpathentry kind="src" path="Day 07-08-2025/Exercise-1/notification-ms/src/test/java"/>
+	<classpathentry kind="src" path="Day 07-08-2025/Exercise-1/user-ms/src/main/java"/>
+	<classpathentry kind="src" path="Day 07-08-2025/Exercise-1/user-ms/src/test/java"/>
+	<classpathentry kind="src" path="Day 07-08-2025/Exercise-2/springsecurity/src/main/java"/>
+	<classpathentry kind="src" path="Day 07-08-2025/Exercise-2/springsecurity/src/test/java"/>
+	<classpathentry kind="src" path="Day 07-08-2025/Exercise-3/springdemo/src/main/java"/>
+	<classpathentry kind="src" path="Day 07-08-2025/Exercise-3/springdemo/src/test/java"/>
+	<classpathentry kind="src" path="Day 07-08-2025/Exercise-4/carmicroservice/src/main/java"/>
+	<classpathentry kind="src" path="Day 07-08-2025/Exercise-4/carmicroservice/src/test/java"/>
+	<classpathentry kind="src" path="Day 08-08-2025/Exercise-1/logdemo/src/main/java"/>
+	<classpathentry kind="src" path="Day 08-08-2025/Exercise-1/logdemo/src/test/java"/>
+	<classpathentry kind="src" path="Day 08-08-2025/Exercise-2/LetsGo/src/main/java"/>
+	<classpathentry kind="src" path="Day 08-08-2025/Exercise-2/LetsGo/src/test/java"/>
+	<classpathentry kind="src" path="Day 29-07-2025/Exercise-1/hibernatedemo/src/main/java"/>
+	<classpathentry kind="src" path="Day 29-07-2025/Exercise-1/hibernatedemo/src/test/java"/>
+	<classpathentry kind="src" path="Day 29-07-2025/Exercise-2/springdemo/src/main/java"/>
+	<classpathentry kind="src" path="Day 29-07-2025/Exercise-2/springdemo/src/test/java"/>
+	<classpathentry kind="src" path="Day 30-07-2025/Exercise/aopair/src/main/java"/>
+	<classpathentry kind="src" path="Day 30-07-2025/Exercise/aopair/src/test/java"/>
+	<classpathentry kind="src" path="Day 31-07-2025/Exercise-1/thymeleafdemo/src/main/java"/>
+	<classpathentry kind="src" path="Day 31-07-2025/Exercise-1/thymeleafdemo/src/test/java"/>
+	<classpathentry kind="src" path="Day 31-07-2025/Exercise-2/weatherdemo/src/main/java"/>
+	<classpathentry kind="src" path="Day 31-07-2025/Exercise-2/weatherdemo/src/test/java"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
