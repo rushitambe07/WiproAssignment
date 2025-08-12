@@ -1,0 +1,1 @@
+Ex 1: Create a springboot application having an endpoint called getCurrentTimewhich is going to give you current data time. Secure this end point with a JT token.   Create an endpoint called /login where you pass user id and password to generate the token which will be used to access the other end points.

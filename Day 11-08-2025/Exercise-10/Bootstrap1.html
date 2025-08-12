@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sequoia Inspiring Musico - Bootstrap Example</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+      /* Soft page background to match the design */
+      body {
+        background: linear-gradient(180deg, #eef2f3 0%, #f6f7f8 100%);
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+        color: #1b1b1b;
+        padding: 2rem;
+      }
+
+      .app-shell {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .card-soft {
+        border: 0;
+        border-radius: 18px;
+        box-shadow: 0 8px 30px rgba(20, 30, 40, 0.08);
+        background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(250,250,250,0.9));
+      }
+
+      .rounded-pill-xx {
+        border-radius: 14px;
+      }
+
+      .hero-title {
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 1.05;
+      }
+
+      .muted-sm {
+        color: #6b7280;
+      }
+
+      .circle-dots .dot {
+        width: 14px; height: 14px; border-radius: 50%; display: inline-block; margin-right: .5rem; border: 2px solid rgba(0,0,0,0.06);
+      }
+
+      /* headphone mockup container */
+      .device-img {
+        max-width: 320px;
+        transform: translateY(-10px);
+      }
+
+      @media (max-width: 991px) {
+        .hero-title { font-size: 1.6rem; }
+        .device-img { max-width: 220px; }
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="app-shell">
+
+      <!-- Top bar / search -->
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <div class="d-flex align-items-center gap-3">
+          <div class="fw-bold">Nitec.</div>
+          <div class="input-group" style="max-width:480px;">
+            <span class="input-group-text bg-white border-0"><i class="fa fa-search"></i></span>
+            <input type="text" class="form-control border-0" placeholder="Search products...">
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center gap-3">
+          <button class="btn btn-light btn-sm rounded-circle"><i class="fa fa-shopping-bag"></i></button>
+          <button class="btn btn-light btn-sm rounded-circle"><i class="fa fa-heart"></i></button>
+         
+          </div>
+        </div>
+      </div>
+
+      <!-- Main content -->
+      <div class="row g-9">
+        <!-- Left: Hero area -->
+        <div class="col-lg-8">
+          <div class="card card-soft p-4 h-10">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <small class="text-uppercase muted-sm">Music is Classic</small>
+                <h1 class="hero-title mt-2">Sequoia Inspiring Musico.</h1>
+                <div class="d-flex align-items-start gap-3 mt-3">
+                  <div class="text-muted" style="font-size:3.2rem; font-weight:700; color: #e6e6e6;">01</div>
+                  <div>
+                    <h6 class="mb-1">Clear Sounds</h6>
+                    <p class="muted-sm mb-0">Making your dream music come true stay with Sequoia Sounds!</p>
+                  </div>
+                </div>
+
+                <div class="mt-4">
+                  <a href="#" class="btn btn-success btn-lg rounded-pill">View All Products <i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+
+               
+
+              </div>
+
+              <div class="col-md-5 text-center">
+                <!-- Replace the image below with your actual headphone graphic. -->
+                <img src="https://media.croma.com/Croma%20Assets/Communication/Headphones%20and%20Earphones/Images/300551_0_sw9uav.png" class="rounded img-fluid" 
+     alt="p2" 
+     style="width: 300px; height: auto;">
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom small cards -->
+          <div class="row mt-3 g-3">
+            <div class="col-md-3">
+              <div class="card card-soft p-3 text-center">
+                <div class="small text-muted">More Products</div>
+                <div class="fw-bold">460 plus items</div>
+                <div class="mt-2 d-flex justify-content-center gap-2">
+            
+                  <img src="https://sekyo.in/cdn/shop/files/S1_black_6fe100c4-cf15-4c87-84cb-063d63ed6cc2.jpg?v=1754544798" class="rounded img-fluid" 
+     alt="p2" 
+     style="width: 120px; height: auto;">
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card card-soft p-3 text-center">
+                <img src="https://cdn.prod.website-files.com/64dcb53932a2514bd5e24d7a/67d7e56687e1e1b1eefcb1c4_Screenshot%202025-03-16%20at%203.01.22%E2%80%AFPM.png" class="rounded-circle mb-2" alt="users">
+                <div class="fw-bold">5m+</div>
+                <div class="muted-sm">Downloads</div>
+                <div class="mt-1">⭐ 4.8 reviews</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card card-soft p-3">
+                <div class="d-flex justify-content-between align-items-start">
+                  <span class="badge bg-light text-dark rounded-pill">Popular</span>
+                  <span class="muted-sm">4.7</span>
+                </div>
+                <h6 class="mt-2">Listening Has Been Released</h6>
+                <div class="d-flex align-items-center mt-2">
+                  <img src="https://cdn.shopify.com/s/files/1/0136/7837/9067/files/900-legacy_multipoint_31406074-7536-4432-a596-ace1e6690c42.jpg?v=1606346909 class="rounded img-fluid" 
+     alt="p2" 
+     style="width: 120px; height: auto;"" class="rounded-circle me-2" alt="artist">
+                  <small class="muted-sm">New single by Sequoia</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: Sidebar -->
+        <div class="col-lg-4">
+          <div class="d-flex flex-column gap-3">
+            <div class="card card-soft p-3">
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <small class="text-muted">Popular Colors</small>
+                  <div class="circle-dots mt-2">
+                    <span class="dot" style="background:#3b82f6"></span>
+                    <span class="dot" style="background:#34d399"></span>
+                    <span class="dot" style="background:#f97316"></span>
+                    <span class="dot" style="background:#ef4444"></span>
+                    <span class="dot" style="background:#a78bfa"></span>
+                  </div>
+                </div>
+                <div><i class="fa fa-ellipsis-h"></i></div>
+              </div>
+            </div>
+
+            <div class="card card-soft p-3 text-center">
+              <small class="text-muted">New Gen</small>
+              <h6 class="mt-2">X-Bud</h6>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf1ywvVZaa6E2_wYsyi0oYiELPbkouzdUWWA&s" class="img-fluid mt-2 rounded" alt="xbud">
+              <div class="mt-2 text-start">
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+
+            <div class="card card-soft p-3 text-center">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtWlhMaRHwTnZfFXRICcrV1wofeMV8owLRqw&s" class="img-fluid rounded mb-2" alt="vr">
+              <h6 class="mb-0">Light Grey Surface Headphone</h6>
+              <small class="muted-sm">Boosted with bass</small>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

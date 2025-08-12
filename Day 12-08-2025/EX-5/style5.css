@@ -1,0 +1,24 @@
+/* Universal selector  */
+* {
+    color: rgb(179, 21, 21);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Group selector  */
+h1, p {
+    color: blue;
+    text-align: center;
+}
+
+/* Class selector */
+.effect {
+    color: orange;
+    font-size: 20px;
+}
+
+/* ID selector*/
+#para {
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+}

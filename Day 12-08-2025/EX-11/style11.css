@@ -1,0 +1,121 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #e96bfa;
+    color: #0a0505;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #2a7ae2;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+/* Header */
+header {
+    background: #222;
+    color: white;
+    padding: 15px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style:none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: rgb(84, 232, 252);
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv6Nb0L9kwQAs7VYIdBhG_QpgamT0udYg2sQ&s') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 30px;
+}
+
+.hero p {
+    font-size: 15px;
+}
+
+/* Container Layout */
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Main Content */
+.content {
+    flex: 3;
+    background: rgb(255, 255, 223);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.content img {
+    width: 70%;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+
+.cta:hover {
+    background: #1a5bb8;
+}
+
+.sidebar {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.sidebar img {
+    border-radius: 3px;
+}
+
+.sidebar h4 {
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero h2 {
+        font-size: 25px;
+    }
+}

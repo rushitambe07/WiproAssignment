@@ -1,0 +1,1 @@
+Ex6: Create a drop down to show different currencies.

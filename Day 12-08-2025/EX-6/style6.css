@@ -1,0 +1,20 @@
+.container {
+    border: 2px solid black;
+}
+
+
+/* First box */
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(240, 16, 16);
+    margin-bottom: 50px;
+}
+
+/* Second box */
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(27, 142, 209);
+    margin-left: 50px; 
+}

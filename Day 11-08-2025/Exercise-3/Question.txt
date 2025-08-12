@@ -1,0 +1,1 @@
+Ex3: Print the following text on an HTML document :This is the first page of our simple web application. Please note that first page is in bold.
