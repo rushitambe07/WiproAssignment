@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 public class StringLowerCaseTest {
 
 	@ParameterizedTest
-    @ValueSource(strings = {"shubham", "sham", "jayanth"})
+    @ValueSource(strings = {"Rushikesh", "sham", "jayanth"})
     void check(String s) {
         assertTrue(isToCheck(s));
     }
