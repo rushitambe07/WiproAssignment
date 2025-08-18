@@ -1,0 +1,15 @@
+  <!-- EX-12 -->
+
+<div >
+  <h3>Country Dropdown Example</h3>
+
+  <button  (click)="loadCountries()">
+    Load
+  </button>
+
+  <select >
+    @for (city of dropdownCountries; track $index) {
+      <option>{{ city }}</option>
+    }
+  </select>
+</div>

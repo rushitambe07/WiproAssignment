@@ -1,0 +1,27 @@
+<!-- EX-13 -->
+
+<h3>Pick a Color </h3>
+
+<select (change)="onColorChange($event)">
+  <option value="">-- Select a color --</option>
+  @for (c of colors; track $index) {
+    <option [value]="c">{{ c }}</option>
+  }
+</select>
+
+<div>
+  @switch (selectedColor) {
+    @case ("red") {
+      <p style="color: red;">This text is RED</p>
+    }
+    @case ("yellow") {
+      <p style="color: rgb(216, 250, 21);">This text is YELLOW</p>
+    }
+    @case ("pink") {
+      <p style="color: rgb(252, 27, 222);">This text is PINK</p>
+    }
+    @default {
+      <p style="color: black;">Please select a color</p>
+    }
+  }
+</div>

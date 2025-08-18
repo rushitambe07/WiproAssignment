@@ -1,0 +1,19 @@
+ <!-- EX-11 -->
+ 
+<div class="container mt-4">
+  <h3>Show/Hide Example</h3>
+
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" id="toggleCheck"
+           (change)="toggle($event)">
+    <label class="form-check-label" for="toggleCheck">
+      Show Message
+    </label>
+  </div>
+
+  @if (showMessage) {
+    <div class="alert alert-success mt-3">
+      ✅ This is the hidden message!
+    </div>
+  }
+</div>

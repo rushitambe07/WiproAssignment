@@ -1,0 +1,13 @@
+<!-- // EX-14 -->
+
+<h3>Search Filter on Listbox</h3>
+
+<input type="text" 
+       placeholder="Type to search..." 
+       (input)="onSearchChange($event)" />
+
+<select size="8">
+  <option *ngFor="let name of filteredNames">{{ name }}</option>
+</select>
+
+
